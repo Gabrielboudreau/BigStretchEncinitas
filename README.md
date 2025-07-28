@@ -6,14 +6,30 @@ This repository contains the front-end code for **BIG Stretch Encinitas**, a mod
 
 ## 📁 Directory Structure
 
-├── README.md # Project documentation (this file)
-└── main/
-└── frontend/
-├── index.html # Home page
-├── services.html # Services & Pricing page
-├── why.html # Why Stretching Works page
-├── about.html # About Us page
-├── contact.html # Contact & Booking page
+├── README.md # Project documentation (this file) 
+
+
+└── main/ 
+
+
+└── frontend/ 
+
+
+├── index.html # Home page 
+
+
+├── price.html # Services & Pricing page 
+
+
+├── benefits.html # Why Stretching Works page 
+
+
+├── about.html # About Us page 
+
+
+├── booking.html # Contact & Booking page 
+
+
 ├── styles.css # Shared CSS file
 
 
