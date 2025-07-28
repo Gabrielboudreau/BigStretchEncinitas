@@ -40,10 +40,10 @@ This repository contains the front-end code for **BIG Stretch Encinitas**, a mod
 | File              | Description                                          |
 |-------------------|------------------------------------------------------|
 | `index.html`      | Main homepage with benefits and intro                |
-| `services.html`   | Pricing for stretch sessions                         |
-| `why.html`        | Science and benefits behind assisted stretching      |
+| `price.html`   | Pricing for stretch sessions                         |
+| `about.html`        | Science and benefits behind assisted stretching      |
 | `about.html`      | Information about the BIG Stretch team and mission   |
-| `contact.html`    | Booking CTA, contact form, hours, and location info  |
+| `booking.html`    | Booking CTA, contact form, hours, and location info  |
 
 ---
 
