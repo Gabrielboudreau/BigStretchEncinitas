@@ -1,52 +1,83 @@
 # BIG Stretch Encinitas Website
 
-Welcome to the official website for **BIG Stretch Encinitas** – a site designed to promote our assisted stretching services based in Encinitas, California.
+This repository contains the front-end code for **BIG Stretch Encinitas**, a modern, responsive static website promoting personalized assisted stretch sessions in Encinitas, CA.
 
-## 📁 Project Structure
+---
 
-project-root/frontend/
+## 📁 Directory Structure
+
+├── README.md # Project documentation (this file)
+└── main/
+└── frontend/
 ├── index.html # Home page
 ├── services.html # Services & Pricing page
 ├── why.html # Why Stretching Works page
 ├── about.html # About Us page
-├── contact.html # Contact / Booking page
-├── styles.css # Shared CSS styles for all pages
-└── README.md # Project overview
+├── contact.html # Contact & Booking page
+├── styles.css # Shared CSS file
 
-
-## 🧭 Navigation
-
-Each page includes a common navigation bar linking to:
-
-- **Home** – `index.html`
-- **Pricing** – `services.html`
-- **Benefits** – `why.html`
-- **About** – `about.html`
-- **Book Now** – `contact.html`
-
-## 🎯 Features
-
-- **Responsive Design:** Mobile-friendly and styled with `styles.css`.
-- **Reusable Navbar:** Manually added to each HTML file.
-- **Clear CTAs:** Calls-to-action for booking sessions.
-- **Clean Layout:** Organized with semantic HTML5 structure.
-
-## 🛠 Setup Instructions
-
-To run the site locally:
-
-1. Clone or download the repository.
-2. Open `index.html` in your browser.
-3. Navigate using the navbar to view the rest of the site.
-
-> 💡 *This site is fully static and can be hosted on GitHub Pages, Netlify, or any standard web server.*
-
-## 📝 Future Improvements
-
-- Modular navbar using JavaScript includes or a static site generator.
-- Integrated Calendly or booking API.
-- Enhanced animations or interactivity.
 
 ---
 
-© 2025 BIG Stretch Encinitas. All Rights Reserved.
+## 🌐 Pages Overview
+
+| File              | Description                                          |
+|-------------------|------------------------------------------------------|
+| `index.html`      | Main homepage with benefits and intro                |
+| `services.html`   | Pricing for stretch sessions                         |
+| `why.html`        | Science and benefits behind assisted stretching      |
+| `about.html`      | Information about the BIG Stretch team and mission   |
+| `contact.html`    | Booking CTA, contact form, hours, and location info  |
+
+---
+
+## 💅 Styling
+
+All HTML files include a shared stylesheet: `styles.css`  
+This provides consistent:
+
+- Fonts (Roboto)
+- Navigation bar styling
+- Section formatting
+- Buttons and layout responsiveness
+
+---
+
+## 🧭 Navigation
+
+Each page includes a navbar linking to all major site pages:
+
+- Home
+- Pricing
+- Benefits
+- About
+- Book Now
+
+The navbar is manually included in each HTML file. (Future enhancement: convert to a reusable component via JavaScript or a templating engine.)
+
+---
+
+## 🚀 How to Use
+
+To run the site locally:
+
+1. Navigate to the `main/frontend/` folder.
+2. Open `index.html` or any other page in your browser.
+3. Browse the full site using the top navigation.
+
+No local server is required. This is a fully static website.
+
+---
+
+## 🛠️ Possible Enhancements
+
+- JavaScript navbar injection to avoid repetition across pages
+- Embed booking calendar via Calendly or similar
+- Host on GitHub Pages or Netlify
+- Responsive tweaks for tablet and mobile
+- Form backend integration (e.g., Formspree, Netlify Forms)
+
+---
+
+**© 2025 BIG Stretch Encinitas**  
+Helping Encinitas move better, feel better, and live better.
