@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #fff;
+  }
+  
+  header {
+    background-color: #3B0CA5;
+    color: white;
+    padding: 3rem 2rem;
+    text-align: left;
+    background-image: url('https://images.unsplash.com/photo-1599058917212-dc4b7b5b1c1d');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    max-width: 600px;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin-top: 1rem;
+  }
+  
+  .cta {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .cta a {
+    padding: 0.75rem 1.5rem;
+    background-color: #8B5CF6;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .benefits, .bio, .why-stretch {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .benefits h2, .bio h2, .why-stretch h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+  
+  .benefits ul, .why-stretch ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .benefits ul li, .why-stretch ul li {
+    margin: 0.5rem 0;
+    padding-left: 1.2rem;
+    position: relative;
+  }
+  
+  .benefits ul li::before, .why-stretch ul li::before {
+    content: '\f00c';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+    color: #3B0CA5;
+  }
+  
+  .bio p, .why-stretch p {
+    line-height: 1.6;
+  }
+  
+  footer {
+    background-color: #3B0CA5;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  /* Navbar Styles */
+.navbar {
+    background-color: #333;
+    padding: 1em 0;
+  }
+  
+  .navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    margin: 0 15px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s;
+  }
+  
+  .navbar a:hover {
+    color: #aaaaff;
+  }
+  

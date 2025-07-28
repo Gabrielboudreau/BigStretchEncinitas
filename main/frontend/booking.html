@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | BIG Stretch Encinitas</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      max-width: 500px;
+      margin: 2rem auto;
+    }
+    input, textarea {
+      padding: 0.75rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+    input[type=\"submit\"] {
+      background-color: #8B5CF6;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      border: none;
+    }
+    .contact-details {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+      border-radius: 8px;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="price.html">Pricing</a></li>
+          <li><a href="benefits.html">Benefits</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="booking.html">Book Now</a></li>
+        </ul>
+      </nav>
+  <header>
+    <h1>Book Your Stretch Today.</h1>
+    <p>Ready to feel better and move better? Book a session or ask a question below.</p>
+  </header>
+
+  <section class="cta" style="justify-content: center; margin-top: 2rem;">
+    <a href="https://calendly.com/your-link" target="_blank">Schedule on Calendly</a>
+  </section>
+
+  <form action="#" method="post">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <input type="tel" name="phone" placeholder="Your Phone" />
+    <input type="submit" value="Send Message" />
+  </form>
+
+  <section class="contact-details">
+    <h2>Visit Us</h2>
+    <p><strong>Location:</strong> 260 N El Camino Real, Encinitas, CA</p>
+    <p><strong>Phone:</strong> (760) 555-1234</p>
+    <p><strong>Email:</strong> <a href=\"mailto:bigstretch@yourdomain.com\">bigstretch@yourdomain.com</a></p>
+    <p><strong>Hours:</strong><br>
+      Monday – Friday: 8 AM – 6 PM<br>
+      Saturday: 10 AM – 2 PM<br>
+      Sunday: Closed
+    </p>
+    <iframe 
+      src="https://www.google.com/maps?q=260+N+El+Camino+Real,+Encinitas,+CA&output=embed"
+      loading="lazy"
+      allowfullscreen>
+    </iframe>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 BIG Stretch Encinitas. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
