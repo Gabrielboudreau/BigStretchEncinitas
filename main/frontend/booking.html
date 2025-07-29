@@ -14,19 +14,24 @@
       gap: 1rem;
       max-width: 500px;
       margin: 2rem auto;
+      padding: 1rem;
     }
     input, textarea {
       padding: 0.75rem;
       border: 1px solid #ccc;
-      border-radius: 5px;
+      border-radius: 6px;
       font-size: 1rem;
     }
-    input[type=\"submit\"] {
-      background-color: #8B5CF6;
-      color: white;
+    input[type="submit"] {
+      background-color: white;
+      color: #3B0CA5;
       font-weight: bold;
       cursor: pointer;
       border: none;
+      transition: background-color 0.3s ease;
+    }
+    input[type="submit"]:hover {
+      background-color: #2a0d6b;
     }
     .contact-details {
       max-width: 800px;
@@ -40,39 +45,65 @@
       border-radius: 8px;
       margin-top: 1rem;
     }
+    .contact-details h2 {
+      color: #00ffff;
+      margin-bottom: 1rem;
+    }
+    .contact-details p a {
+      color: #00ffff;
+      text-decoration: none;
+    }
+    .contact-details p a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
-    <nav class="navbar">
+
+  <!-- Topbar with Logo and Nav -->
+  <div class="topbar">
+    <div class="container">
+      <nav class="navbar">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="price.html">Pricing</a></li>
           <li><a href="benefits.html">Benefits</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="booking.html">Book Now</a></li>
+          <li><a href="profile.html">Staff</a></li>
         </ul>
       </nav>
-  <header>
-    <h1>Book Your Stretch Today.</h1>
-    <p>Ready to feel better and move better? Book a session or ask a question below.</p>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="hero alt-section">
+    <div class="container hero-text">
+      <h1>Book Your Stretch Today.</h1>
+      <p>Ready to feel better and move better? Book a session or reach out with any questions below.</p>
+    </div>
   </header>
 
+  <!-- CTA Button -->
   <section class="cta" style="justify-content: center; margin-top: 2rem;">
     <a href="https://calendly.com/your-link" target="_blank">Schedule on Calendly</a>
   </section>
 
+  <!-- Contact Form -->
   <form action="#" method="post">
     <input type="text" name="name" placeholder="Your Name" required />
     <input type="email" name="email" placeholder="Your Email" required />
     <input type="tel" name="phone" placeholder="Your Phone" />
+    <textarea name="message" rows="5" placeholder="Your Message"></textarea>
     <input type="submit" value="Send Message" />
   </form>
 
+  <!-- Contact Details -->
   <section class="contact-details">
     <h2>Visit Us</h2>
     <p><strong>Location:</strong> 260 N El Camino Real, Encinitas, CA</p>
     <p><strong>Phone:</strong> (760) 555-1234</p>
-    <p><strong>Email:</strong> <a href=\"mailto:bigstretch@yourdomain.com\">bigstretch@yourdomain.com</a></p>
+    <p><strong>Email:</strong> <a href="mailto:anytimefitness@gmail.com">anytimefitness@gmail.com</a></p>
     <p><strong>Hours:</strong><br>
       Monday – Friday: 8 AM – 6 PM<br>
       Saturday: 10 AM – 2 PM<br>
@@ -85,6 +116,7 @@
     </iframe>
   </section>
 
+  <!-- Footer -->
   <footer>
     <p>&copy; 2025 BIG Stretch Encinitas. All Rights Reserved.</p>
   </footer>
